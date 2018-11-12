@@ -1,0 +1,211 @@
+body {
+  font-family: "Avenir Next";
+  background:url("https://www.techapple.com/wp-content/uploads/2017/03/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2017-03-28-%E4%B8%8A%E5%8D%889.56.37.png");
+}
+
+dt{
+  color: green;
+}
+
+.girl{
+  border: 2px solid green;
+  border-radius: 500px;
+  overflow: hidden;
+  width: 230px;
+  box-shadow: 5px 5px 0 green;
+}
+
+.girl2{
+    transition:width linear 1.0s;
+    transition: height linear 1.0s;
+    width: 100px;
+    height: 100px;
+    margin-bottom:200px;
+}
+
+.girl2:hover{
+  border: 2px solid green;
+  border-radius: 500px;
+  overflow: hidden;
+  width: 450px;
+  height: 260px;
+  box-shadow: 5px 5px 0 green;
+}
+
+.news {
+   list-style: none;
+}
+.news .new::after {
+   content: "new";
+   color: #fff;
+   background: red;
+   font-size:12px;
+}
+.news .pdf::after {
+   content: "PDF";
+   color: red;
+   border:1px solid red;
+   font-size:12px;
+}
+
+ul.memo li {
+   list-style: none;
+}
+ul.memo li::before {
+   content: "(⋈◍＞◡＜◍)。✧♡";
+   padding-right: 3px;
+   color: red;
+}
+
+article a:hover {
+  color: red;
+}
+
+.copy-container h1{
+  color: white;
+  text-decoration: underline;
+  border: 5px groove red;
+  border-radius: 20px;
+  width: 700px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30;
+  margin-left: 180;
+  box-shadow: 10px 10px 0 red;
+  background: black;
+}
+
+.copy-container h2:active{
+  color: red;
+    box-shadow: 10px 10px 0 black inset;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  text-decoration: underline;
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+  text-decoration: underline;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+  text-shadow: 9px 1px 0 red;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.copy-continer mark{
+  color: blue;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.section-title{
+  transition: all linear 0.3s;
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 20px;
+}
+
+.section-title:hover {
+  background: lightblue;
+  font-size: 40px;
+  width: 600px;
+  height: 40px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+
+.anime{
+  border: 2px solid ;
+  background:url('http://livedoor.blogimg.jp/dog_love11/imgs/9/b/9bec1cef-s.jpg');
+  width: 550px;
+  height: 627px;
+  animation: anime linear 1.0s infinite alternate;
+}
+
+/* inputとtextareaのCSSを指定してください */
+@keyframes anim{
+  0%{
+    background:url('http://livedoor.blogimg.jp/dog_love11/imgs/9/b/9bec1cef-s.jpg');
+    border-radius: 0;
+  }
+
+  100%{
+     background:url('https://lohas.nicoseiga.jp/thumb/2216127i?1341918327');
+    border-radius: 160px;
+  }
+}
+
+/* contact-submitのCSSを指定してください */
+
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
